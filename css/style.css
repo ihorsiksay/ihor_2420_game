@@ -1,0 +1,203 @@
+@import url("null.css");
+.wrapper {
+  max-width: 1000px;
+  margin: 20px auto 0 auto;
+}
+/* .main {
+  max-width: 100%;
+  min-height: 800px;
+  background: lightpink;
+  padding: 10px;
+} */
+h2 {
+  max-width: 800px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 80px;
+  margin: 10px auto;
+}
+.game div:nth-child(odd) {
+  background-color: rgb(172, 172, 172);
+}
+.game div:nth-child(even):not(:last-child) {
+  background-color: rgb(41, 41, 41);
+}
+.footer__game div:nth-child(odd) {
+  background-color: rgb(145, 0, 0);
+}
+.footer__game div:nth-child(even):not(:last-child) {
+  background-color: rgb(0, 172, 51);
+}
+.line1 {
+  width: 40px;
+  height: 40px;
+}
+.line2 {
+  width: 400px;
+  height: 50px;
+  visibility: hidden;
+}
+.line3 {
+  width: 50px;
+  height: 200px;
+  margin-left: 350px;
+  visibility: hidden;
+}
+.line4 {
+  width: 200px;
+  height: 50px;
+  margin-left: 350px;
+  visibility: hidden;
+}
+.line5 {
+  width: 50px;
+  height: 100px;
+  margin-left: 500px;
+  margin-top: -150px;
+  visibility: hidden;
+}
+.line6 {
+  width: 200px;
+  height: 50px;
+  margin-left: 500px;
+  margin-top: -150px;
+  visibility: hidden;
+}
+.line7 {
+  width: 50px;
+  height: 300px;
+  margin-left: 650px;
+  visibility: hidden;
+}
+.line8 {
+  width: 600px;
+  height: 50px;
+  margin-left: 100px;
+  visibility: hidden;
+}
+.line9 {
+  width: 50px;
+  height: 100px;
+  margin-left: 100px;
+  visibility: hidden;
+}
+.line10 {
+  width: 100px;
+  height: 100px;
+  color: black;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 100px;
+  text-decoration: none;
+  margin-left: 100px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  visibility: hidden;
+}
+.line1:hover + .line2,
+.line2:hover {
+  visibility: visible;
+}
+.line2:hover + .line3,
+.line3:hover {
+  visibility: visible;
+}
+.line3:hover + .line4,
+.line4:hover {
+  visibility: visible;
+}
+.line4:hover + .line5,
+.line5:hover {
+  visibility: visible;
+}
+.line5:hover + .line6,
+.line6:hover {
+  visibility: visible;
+}
+.line6:hover + .line7,
+.line7:hover {
+  visibility: visible;
+}
+.line7:hover + .line8,
+.line8:hover {
+  visibility: visible;
+}
+.line8:hover + .line9,
+.line9:hover {
+  visibility: visible;
+}
+.line9:hover + .line10,
+.line10:hover {
+  visibility: visible;
+}
+.line10:active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+.image {
+  margin: -600px auto auto 200px;
+  display: none;
+}
+.image img {
+  max-width: 1000px;
+}
+#image:target {
+  display: block;
+}
+.line01 {
+  width: 100px;
+  height: 200px;
+}
+.line02 {
+  width: 900px;
+  height: 100px;
+  margin: 0 0 100px 0;
+  visibility: hidden;
+}
+.line03 {
+  width: 300px;
+  height: 400px;
+  margin: -100px 0px 0px 600px;
+  visibility: hidden;
+}
+.line04 {
+  width: 400px;
+  height: 40px;
+  margin: -40px 0px 0px 200px;
+  visibility: hidden;
+}
+.line05 {
+  width: 70px;
+  height: 150px;
+  margin: 0px 0px 0px 200px;
+  visibility: hidden;
+}
+.line06 {
+  width: 140px;
+  height: 50px;
+  margin: 0px 0px 0px 163px;
+  visibility: hidden;
+}
+.line01:hover + .line02,
+.line02:hover {
+  visibility: visible;
+}
+.line02:hover + .line03,
+.line03:hover {
+  visibility: visible;
+}
+.line03:hover + .line04,
+.line04:hover {
+  visibility: visible;
+}
+.line04:hover + .line05,
+.line05:hover {
+  visibility: visible;
+}
+.line05:hover + .line06,
+.line06:hover {
+  visibility: visible;
+}
